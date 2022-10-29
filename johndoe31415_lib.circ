@@ -1362,10 +1362,10 @@
       <a name="addrWidth" val="6"/>
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 6 8
-c0 c1 c2 c3 c4 c5 c6 c7
-c8 c9 d0 d1 d2 d3 d4 d5
-d6 d7 d8 d9 e0 e1 e2 e3
-e4 e5 e6 e7 e8 e9 f0 f1
+c0 c1 c2 c3 c4 c8 c9 ca
+cb cc d0 d1 d2 d3 d4 d8
+d9 da db dc e0 e1 e2 e3
+e4 e8 e9 ea eb ec f0 f1
 32*ff
 </a>
     </comp>
@@ -1407,6 +1407,174 @@ e4 e5 e6 e7 e8 e9 f0 f1
     <wire from="(730,720)" to="(850,720)"/>
     <wire from="(740,610)" to="(740,690)"/>
     <wire from="(740,690)" to="(850,690)"/>
+    <wire from="(750,600)" to="(750,660)"/>
+    <wire from="(750,660)" to="(850,660)"/>
+    <wire from="(760,510)" to="(760,550)"/>
+    <wire from="(760,510)" to="(850,510)"/>
+    <wire from="(760,590)" to="(760,630)"/>
+    <wire from="(760,630)" to="(850,630)"/>
+    <wire from="(770,540)" to="(770,560)"/>
+    <wire from="(770,540)" to="(850,540)"/>
+    <wire from="(770,580)" to="(770,600)"/>
+    <wire from="(770,600)" to="(850,600)"/>
+  </circuit>
+  <circuit name="DHM185">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="DHM185"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="128.0"/>
+    <appear>
+      <rect height="3" stroke="none" width="10" x="50" y="59"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="64">A</text>
+      <rect height="3" stroke="none" width="10" x="50" y="79"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="84">B</text>
+      <rect height="3" stroke="none" width="10" x="50" y="99"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="104">C</text>
+      <rect height="3" stroke="none" width="10" x="50" y="119"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="124">D</text>
+      <rect height="3" stroke="none" width="10" x="50" y="139"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="144">E</text>
+      <rect height="3" stroke="none" width="10" x="50" y="159"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="164">G</text>
+      <rect height="3" stroke="none" width="10" x="260" y="59"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="64">Y1</text>
+      <rect height="3" stroke="none" width="10" x="260" y="79"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="84">Y2</text>
+      <rect height="3" stroke="none" width="10" x="260" y="99"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="104">Y3</text>
+      <rect height="3" stroke="none" width="10" x="260" y="119"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="124">Y4</text>
+      <rect height="3" stroke="none" width="10" x="260" y="139"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="144">Y5</text>
+      <rect height="3" stroke="none" width="10" x="260" y="159"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="164">Y6</text>
+      <rect height="20" stroke="none" width="200" x="60" y="170"/>
+      <rect fill="none" height="140" stroke="#000000" stroke-width="2" width="200" x="60" y="50"/>
+      <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Courier 10 Pitch" font-size="14" font-weight="bold" text-anchor="middle" x="160" y="184">DHM185</text>
+      <circ-anchor facing="east" height="6" width="6" x="267" y="57"/>
+      <circ-port height="10" pin="850,510" width="10" x="265" y="55"/>
+      <circ-port height="10" pin="850,540" width="10" x="265" y="75"/>
+      <circ-port height="10" pin="850,570" width="10" x="265" y="95"/>
+      <circ-port height="10" pin="850,600" width="10" x="265" y="115"/>
+      <circ-port height="10" pin="850,630" width="10" x="265" y="135"/>
+      <circ-port height="10" pin="850,660" width="10" x="265" y="155"/>
+      <circ-port height="8" pin="240,490" width="8" x="46" y="56"/>
+      <circ-port height="8" pin="240,520" width="8" x="46" y="76"/>
+      <circ-port height="8" pin="240,550" width="8" x="46" y="96"/>
+      <circ-port height="8" pin="240,580" width="8" x="46" y="116"/>
+      <circ-port height="8" pin="240,610" width="8" x="46" y="136"/>
+      <circ-port height="8" pin="240,670" width="8" x="46" y="156"/>
+    </appear>
+    <comp lib="0" loc="(240,490)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="0" loc="(240,520)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="0" loc="(240,550)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="C"/>
+    </comp>
+    <comp lib="0" loc="(240,580)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="D"/>
+    </comp>
+    <comp lib="0" loc="(240,610)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="E"/>
+    </comp>
+    <comp lib="0" loc="(240,670)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="G"/>
+    </comp>
+    <comp lib="0" loc="(320,610)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="0" loc="(710,540)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(850,510)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Y1"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(850,540)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Y2"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(850,570)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Y3"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(850,600)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Y4"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(850,630)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Y5"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(850,660)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Y6"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="4" loc="(430,480)" name="ROM">
+      <a name="addrWidth" val="6"/>
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="contents">addr/data: 6 8
+0 1 2 3 4 5 6 7
+8 9 10 11 12 13 14 15
+16 17 18 19 20 21 22 23
+24 25 26 27 28 29 30 31
+32*ff
+</a>
+    </comp>
+    <comp lib="8" loc="(195,449)" name="Text">
+      <a name="halign" val="left"/>
+      <a name="text" val="Simplified IC that fulfills similar functionality as the 74185, but without the LSB bypass"/>
+    </comp>
+    <wire from="(240,490)" to="(290,490)"/>
+    <wire from="(240,520)" to="(280,520)"/>
+    <wire from="(240,550)" to="(270,550)"/>
+    <wire from="(240,580)" to="(260,580)"/>
+    <wire from="(240,610)" to="(250,610)"/>
+    <wire from="(240,670)" to="(300,670)"/>
+    <wire from="(250,610)" to="(250,660)"/>
+    <wire from="(250,660)" to="(300,660)"/>
+    <wire from="(260,580)" to="(260,650)"/>
+    <wire from="(260,650)" to="(300,650)"/>
+    <wire from="(270,550)" to="(270,640)"/>
+    <wire from="(270,640)" to="(300,640)"/>
+    <wire from="(280,520)" to="(280,630)"/>
+    <wire from="(280,630)" to="(300,630)"/>
+    <wire from="(290,490)" to="(290,620)"/>
+    <wire from="(290,620)" to="(300,620)"/>
+    <wire from="(320,490)" to="(320,610)"/>
+    <wire from="(320,490)" to="(430,490)"/>
+    <wire from="(670,540)" to="(710,540)"/>
+    <wire from="(730,550)" to="(760,550)"/>
+    <wire from="(730,560)" to="(770,560)"/>
+    <wire from="(730,570)" to="(850,570)"/>
+    <wire from="(730,580)" to="(770,580)"/>
+    <wire from="(730,590)" to="(760,590)"/>
+    <wire from="(730,600)" to="(750,600)"/>
     <wire from="(750,600)" to="(750,660)"/>
     <wire from="(750,660)" to="(850,660)"/>
     <wire from="(760,510)" to="(760,550)"/>

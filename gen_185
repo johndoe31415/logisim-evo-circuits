@@ -1,0 +1,28 @@
+#!/usr/bin/python3
+
+dhm185 = bytearray()
+for i in range(2 ** 6):
+	inval = i & 0x1f
+	(msd, lsd) = divmod(inval, 10)
+	g = (i >> 5) & 1
+	if g:
+		outval = 0xff
+	else:
+		outval = (msd << 4) | (lsd << 0)
+	dhm185.append(outval)
+with open("rom_dhm185.bin", "wb") as f:
+	f.write(dhm185)
+
+
+sn74185 = bytearray()
+for i in range(2 ** 6):
+	inval = i & 0x1f
+	(y4_y5_y6, y1_y2_y3) = divmod(inval, 5)
+	g = (i >> 5) & 1
+	if g:
+		outval = 0xff
+	else:
+		outval = (3 << 6) | (y4_y5_y6 << 3) | (y1_y2_y3 << 0)
+	sn74185.append(outval)
+with open("rom_sn74185.bin", "wb") as f:
+	f.write(sn74185)
